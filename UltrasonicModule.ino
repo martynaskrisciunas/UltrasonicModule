@@ -16,7 +16,6 @@ void loop() {
   delayMicroseconds(10);
   digitalWrite(trigPin, LOW);
   duration_us = pulseIn(echoPin, HIGH);
-  // calculate the distance
-  distance_cm = 0.017 * duration_us; // speed of sound = 0.034 cm/µs 
+  distance_cm = 0.017 * duration_us; // speed of sound = 0.034 cm/µs divide by 2 because sound goes forwards then backwards
   Serial.println(distance_cm);
 }
