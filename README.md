@@ -1,1 +1,1 @@
-First time using the UltrasonicModule.Testing the range of the sensor by outputting data on a serial monitor. 
+First time using the UltrasonicModule. The "UltrasonicModule.ino" sketch plots the data on the arduino Serial Plotter. The upgraded version "UltrasonicModuleViaWIFI.ino" sends the data using WIFI to io.adafruit.com. For this more complicated sketch I copied a big part from the Arduino demo codes.
